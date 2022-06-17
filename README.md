@@ -13,6 +13,6 @@ given class or generic type instance - and nothing else.
 from typing import List
 from izzet import izzet
 
-izzet([1,2, "3"], List[int]) # False
-izzet([1,2, 3], List[int]) # True
+izzet([1,2, "3"]).a(List[int]) # False
+izzet([1,2, 3]).a(List[int]) # True
 ```
