@@ -6,7 +6,7 @@ from izzet.memo import TypeCheckMemo
 from izzet.type_checkers import _check_type
 
 __title__ = 'Izzet'
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __author__ = 'Peter Wensel'
 __license__ = 'MIT'
 __credits__ = 'Slightly Better Python'
